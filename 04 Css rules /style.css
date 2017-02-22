@@ -1,15 +1,20 @@
 /* myStyle.css */
 
+body{
+    background-image:url(background.jpg);
+    background-color:aquamarine;
+}
 h1 {
-    color: fuchsia;
+    color:aquamarine;
     margin-left: 100px;
-    font-family:serif; Oswald;
+    font-family:sans-serif; Futura; weight:bold;
     font-weight:lighter;
     font-size:40px;
 }
 
 h2 {
-    color:aqua;
+    color:purple;
+    background-color: greenyellow
     margin-left: 20px;
     font-family:serif; Adobe Caslon; 
     font-size: 20px;
@@ -17,14 +22,16 @@ h2 {
 }
 p {
     max-width: 800px;
-    line-height: 2.6em;
+    line-height: 1.3em;
     font-family: sans-serif; Futura;
     font-size: 12px;
     font-weight: 300;
+    color:antiquewhite;
+    text-align: justify;
 }
 li{
     color:white;
-    background-color: magenta;max-width: 800px;
+    background-color: magenta;max-width: 800px; text-decoration: underline;
     margin-left:40px;
     font-family: sans-serif; Helvetica;
     font-weight: 200;
@@ -32,11 +39,11 @@ li{
 }
 a {
     color:darkorange;
-    font-family:sans-serif; Oswald; font-size:12px; font-weight: lighter;
+    font-family:sans-serif; Helvetica; font-size:16px; font-weight: bold;
 }
 
 a:hover {
-    color: deeppink;
+    color: darkturquoise;
     text-decoration:line-through;
 }
 table, th, td {
@@ -59,7 +66,7 @@ td {
 }
 
 .soupintro {
-    background-color: magenta;
+    background-color: aquamarine; opacity: 0.5;
     font-family: Adobe Caslon; color:darkblue; font-weight:lighter;
     width: 600px;
     padding: 50px;30px;50px;80px;
