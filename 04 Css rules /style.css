@@ -25,6 +25,7 @@ p {
     font-size: 14px;
 }
 p.intro:first-line {font-weight: bold;}
+
 li{
     color: aqua;
     margin-left:40px;
