@@ -1,15 +1,60 @@
+/* myStyle.css */
+
 body {
- background-color: #333300;
- color: #FFFFFF;
+    background-color: mistyrose;
 }
+
 h1 {
- color: #FFFF33;
- text-align: center;
- font: italic 200% fantasy;
+    color: navy;
+    margin-left: 20px;
+}
+
+h1.intro {
+    color: blue;
+}
+h2 {
+    color: magenta;
+    margin-left: 20px;
+    font-family:sans-serif, Whitney;
+    font-size: 18px;
 }
 p {
- background-color: #FFFF33;
- color: #333300;
- text-align: right;
- border: 3px groove #FFFF33;
+    background-color: azure;
+    line-height: 1.4em;
+    font-family: sans-serif; Arial;
+    font-size: 14px;
+}
+p.intro:first-line {font-weight: bold;}
+li{
+    color: aqua;
+    margin-left:40px;
+    font-family: sans-serif; Arial;
+}
+a {
+    color:darkorchid;
+    font-family:sans-serif; Helvetica;
+}
+
+a:hover {
+    color: deeppink;
+    text-decoration: underline;
+}
+table{
+    width:600px
+}
+td.description {
+    min-width: 450px;
+    max-width: 650px;
+    text-align: left;
+    padding: 5px;
+    margin: 0px;}
+
+figurecaption{
+    color:forestgreen; 
+    font-size:10px;
+    font-family:sans-serif; Helvetica;
+    background-color: antiquewhite;   
+}
+#firstname { 
+    background-color: yellow;
 }
