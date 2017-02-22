@@ -1,12 +1,12 @@
-/* myStyle.css */
-
 body {
     background-color: mistyrose;
 }
 
 h1 {
     color: navy;
-    margin-left: 20px;
+    margin-left: 30px;
+    font-family: sans-serif; Whitney;
+    font-size: 18px;
 }
 
 h1.intro {
@@ -15,7 +15,7 @@ h1.intro {
 h2 {
     color: magenta;
     margin-left: 20px;
-    font-family:sans-serif, Whitney;
+    font-family:sans-serif; Arial;
     font-size: 18px;
 }
 p {
@@ -50,7 +50,7 @@ td.description {
     padding: 5px;
     margin: 0px;}
 
-figurecaption{
+figcaption{
     color:forestgreen; 
     font-size:10px;
     font-family:sans-serif; Helvetica;
