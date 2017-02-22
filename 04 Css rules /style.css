@@ -1,54 +1,52 @@
 /* myStyle.css */
 
-body {
-    background-color: mistyrose;
-}
-
 h1 {
-    color: navy;
-    margin-left: 20px;
-    font-family:serif; Tiempos;
-    font-weight:bold;
-    font-size:24px;
+    color: fuchsia;
+    margin-left: 100px;
+    font-family:serif; Oswald;
+    font-weight:lighter;
+    font-size:40px;
 }
 
 h2 {
-    color: magenta;
+    color:aqua;
     margin-left: 20px;
-    font-family:sans-serif, Whitney;
-    font-size: 18px;
+    font-family:serif; Adobe Caslon; 
+    font-size: 20px;
+    font-weight:bold; 
 }
 p {
-    background-color:cornsilk;max-width: 600px;
-    line-height: 1.5em;
+    max-width: 800px;
+    line-height: 2.6em;
     font-family: sans-serif; Futura;
     font-size: 12px;
     font-weight: 300;
 }
 li{
-    color: crimson;
+    color:white;
+    background-color: magenta;max-width: 800px;
     margin-left:40px;
-    font-family: sans-serif; Arial;
+    font-family: sans-serif; Helvetica;
     font-weight: 200;
-    font-size: 12px;
+    font-size: 16px;
 }
 a {
-    color:darkorchid;
-    font-family:sans-serif; Helvetica;
+    color:darkorange;
+    font-family:sans-serif; Oswald; font-size:12px; font-weight: lighter;
 }
 
 a:hover {
     color: deeppink;
-    text-decoration: underline;
+    text-decoration:line-through;
 }
 table, th, td {
-    width:auto;
+    width: 70%;
     border-collapse: collapse;
-    border: 2px solid crimson;
+    border: 8px solid blue;
 }
 th, td {
-    border-bottom: 1px solid crimson;
-    padding: 15px;
+    border-bottom: 1px solid ;
+    padding: 10px;
     text-align:left;
 }
 td {
@@ -56,24 +54,25 @@ td {
     vertical-align: bottom;
 }
 #header { 
-    background-color: crimson;
-    font-family:sans-serif; Helvetica; color: beige; font-weight: 400;
+    background-color: blueviolet;
+    font-family:sans-serif; Helvetica; color: magenta; font-weight: lighter; font-size: 20px;
 }
 
 .soupintro {
-    background-color: azure;
-    font-family: sans-serif; Futura; color:darkblue; font-weight:lighter;
+    background-color: magenta;
+    font-family: Adobe Caslon; color:darkblue; font-weight:lighter;
     width: 600px;
+    padding: 50px;30px;50px;80px;
 }
 
 .captions {
     color:ghostwhite; 
     font-size:10px;
-    font-family:sans-serif; Helvetica;
+    font-family:Oswald;font-weight: lighter;
     text-align: left;
-    background-color:darkorange; max-width: 600px;  
+    background-color:magenta; max-width: 400px;  
 }
 #contact { 
-    background-color: blue;
-    font-family:sans-serif; Oswald; color: beige; font-weight: bold;
+    background-color: magenta;max-width: 400px;
+    font-family:Futura; color: beige; font-weight: bold;
 }
