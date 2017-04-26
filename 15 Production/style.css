@@ -574,7 +574,6 @@ outline: medium none !important;
         margin-right:226px; 
         padding: 80px 0px 90px 0px;
         text-align:justify;
-    
 }
 
 
@@ -608,4 +607,44 @@ outline: medium none !important;
         font-size: 38px;
     color:#f7841b;
     }
+
+/* Our Team Page*/
+
+#imageteam h1{
+        font-family: 'Playfair Display';
+        color:#fff;
+        font-size:100px;
+        font-style:bold; 
+        text-align:center;
+        z-index:100;
+        position:absolute;
+        margin-left:300px;
+        margin-top:180px;
+        padding:150px;
+    
+}
+
+#imageteam img
+{ display:block;
+    margin:auto}
+.descriptionteam p{
+    font-family:'open sans condensed';
+        font-style:bold;
+        font-weight:700;
+        font-size:22px; 
+        color:#666666;
+        line-height: 30px;
+        margin-left:226px; 
+        margin-right:226px; 
+        padding: 40px 0px 0px 0px;
+        text-align:justify;
+}
+
+#GNenciu h1{
+        font-family:'open sans condensed';
+        font-style:bold;
+        font-size:30px;
+        color:#00cdc0;
+        float:right;
+}
 
